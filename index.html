@@ -3,153 +3,249 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Tanmay Dhandhukiya | Cybersecurity, Cloud & DevOps Portfolio | GitHub & AWS Certified | Fanshawe College | Co-op Ready" />
-  <meta name="keywords" content="Tanmay Dhandhukiya, Cybersecurity, Cloud Computing, DevOps, IT Support, GitHub Certified, AWS Certified, SOC Analyst, Docker, Jenkins, Python, Fanshawe College, Portfolio" />
+  <meta name="description" content="Tanmay Dhandhukiya | Cybersecurity Graduate, Cloud & DevOps Specialist. Building and securing resilient systems on AWS & Azure." />
+  <meta name="keywords" content="Tanmay Dhandhukiya, Cybersecurity, Cloud Security, DevOps, AWS, Azure, Docker, Kubernetes, Python, Fanshawe College, Internship Portfolio" />
   <meta name="author" content="Tanmay Dhandhukiya" />
   <title>Tanmay Dhandhukiya | Cybersecurity & DevOps Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-<style>
-  body {
-    background-color: #0d1117;
-    color: #c9d1d9;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  a {
-    color: #58a6ff;
-    text-decoration: none;
-  }
-  .navbar, .footer {
-    background-color: #161b22;
-  }
-  .project-img {
-    max-width: 100%;
-    border-radius: 10px;
-  }
-  .section-title {
-    border-bottom: 2px solid #30363d;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-  }
-  .card {
-    background-color: #21262d;
-    border: none;
-    color: #c9d1d9;
-  }
-  .card h5, .card p, .card ul li, .card em {
-    color: #c9d1d9;
-  }
-</style>
-
-
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navbar, .footer {
+      background-color: #161b22;
+    }
+    .navbar-brand {
+      font-weight: bold;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section-title {
+      border-bottom: 2px solid #30363d;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    .card {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      color: #c9d1d9;
+      transition: transform 0.2s ease-in-out;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .card h5 {
+      color: #58a6ff;
+      font-weight: bold;
+    }
+    .hero-section {
+        padding: 6rem 0;
+    }
+    .hero-section h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .hero-section .lead {
+        font-size: 1.25rem;
+        max-width: 700px;
+        margin: 1rem auto;
+    }
+    .btn-custom-primary {
+        background-color: #238636;
+        border-color: #238636;
+        color: white;
+        padding: 10px 20px;
+        font-weight: bold;
+    }
+    .btn-custom-secondary {
+        background-color: transparent;
+        border-color: #30363d;
+        color: #58a6ff;
+        padding: 10px 20px;
+        font-weight: bold;
+    }
+    .badge-custom {
+      background-color: #30363d;
+      color: #c9d1d9;
+      padding: 0.5em 0.75em;
+      margin: 2px;
+    }
+    .skill-category h5 {
+        color: #c9d1d9;
+        font-weight: bold;
+        margin-top: 1rem;
+        border-bottom: 1px solid #30363d;
+        padding-bottom: 5px;
+    }
+  </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark px-4 py-3">
-    <a class="navbar-brand" href="#">Tanmay Dhandhukiya</a>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark px-4 py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tanmay Dhandhukiya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-  <header class="container mt-5 text-center">
-    <h1>Cybersecurity & DevOps Portfolio</h1>
-    <p class="lead">GitHub & AWS Certified | Network Security | Cloud | Co-op Ready | Python | Docker | Jenkins</p>
+  <!-- HERO SECTION -->
+  <header class="container text-center hero-section">
+    <h1>Securing the Cloud, One Line of Code at a Time.</h1>
+    <p class="lead">
+      A Cybersecurity graduate student with a developer's mindset, specializing in cloud security (AWS, Azure) and DevOps. I build, automate, and secure digital infrastructure.
+    </p>
+    <div class="mt-4">
+      <a href="#experience" class="btn btn-custom-primary mx-2">View My Work</a>
   </header>
 
-  <section class="container mt-5">
+  <!-- ABOUT ME -->
+  <section id="about" class="container mt-5 py-5">
     <h2 class="section-title">About Me</h2>
-    <p>
-      I'm <strong>Tanmay Dhandhukiya</strong>, currently pursuing a post-graduate certificate in Network Security Architecture at <strong>Fanshawe College</strong>. With hands-on experience in <strong>cloud platforms (AWS & Azure)</strong>, <strong>DevOps tools (Docker, Kubernetes, Jenkins)</strong>, and <strong>penetration testing tools (Metasploit, Wireshark)</strong>, I’m passionate about cybersecurity, secure software development, and infrastructure automation.
+    <p class="lead">
+      My journey into cybersecurity began not in a server room, but in a code editor. As a software engineer, I was fascinated by how applications were built, but I became obsessed with how they could be broken—and, more importantly, how to fortify them. This passion led me to pursue a Master's degree and specialize in the area where development and security converge: the cloud.
+    </p>
+    <p class="lead">
+      I thrive on the command line and in the cloud console, using tools like <strong>Docker, Kubernetes, and Jenkins</strong> to build streamlined, secure development pipelines. My hands-on experience at Infopercept Consulting involved engineering compliance platforms for major financial institutions, where I didn't just write code; I built secure, scalable solutions on <strong>AWS and Azure</strong>.
     </p>
   </section>
 
-  <section class="container mt-5">
-    <h2 class="section-title">Projects</h2>
-    <div class="row g-4">
-      <div class="col-md-6">
-        <div class="card p-3 h-100">
-          <img src="https://via.placeholder.com/500x300?text=Cloud+Security+Tool" alt="Project 1" class="project-img mb-3">
-          <h5>Cloud Security Assessment Tool</h5>
-          <p>Assessed cloud vulnerabilities using STRIDE framework; implemented mitigations in AWS using EC2, S3, and Route 53. Included Azure-based monitoring and compliance automation.</p>
-        </div>
+  <!-- EXPERIENCE / PROJECT SPOTLIGHTS -->
+  <section id="experience" class="container mt-5 py-5">
+    <h2 class="section-title">Experience & Project Spotlights</h2>
+    <div class="card p-4 mb-4">
+      <h5>GSOS Compliance Platform</h5>
+      <p class="text-muted"><strong>Role:</strong> Software Engineer | <strong>Company:</strong> Infopercept Consulting Pvt Ltd | Dec 2022 – Mar 2023</p>
+      <p><strong>The Challenge:</strong> Government banks in India required a robust, secure, and user-friendly platform to monitor and manage complex regulatory compliance standards.</p>
+      <p><strong>My Contribution:</strong></p>
+      <ul>
+        <li><strong>Engineered UI/UX enhancements</strong> using PHP and JavaScript, creating a seamless and intuitive experience for compliance officers.</li>
+        <li><strong>Developed and deployed real-time dynamic dashboards</strong> that visualized critical compliance data, enabling faster, data-driven decision-making for stakeholders.</li>
+        <li><strong>Architected and implemented solutions on cloud platforms</strong>, leveraging AWS (EC2, S3, Route 53) and Azure to ensure high availability and scalability for mission-critical banking systems.</li>
+        <li><strong>Streamlined the development lifecycle</strong> by integrating DevOps tools like Docker, Kubernetes, and Jenkins, which accelerated deployment times and improved system reliability.</li>
+      </ul>
+      <p><strong>Tech Stack:</strong></p>
+      <div>
+        <span class="badge badge-custom">PHP</span><span class="badge badge-custom">JavaScript</span><span class="badge badge-custom">AWS</span><span class="badge badge-custom">Azure</span><span class="badge badge-custom">Docker</span><span class="badge badge-custom">Kubernetes</span><span class="badge badge-custom">Jenkins</span><span class="badge badge-custom">MySQL</span><span class="badge badge-custom">GitHub</span>
       </div>
-      <div class="col-md-6">
-        <div class="card p-3 h-100">
-          <img src="https://via.placeholder.com/500x300?text=Socket+Python+Game" alt="Project 2" class="project-img mb-3">
-          <h5>Python Socket Game</h5>
-          <p>Created a multiplayer number guessing game using Python sockets with logging and random number generation. Integrated basic server-client architecture and file handling.</p>
+    </div>
+    <div class="card p-4">
+        <h5>Foundational Web Development</h5>
+        <p class="text-muted"><strong>Role:</strong> Summer Intern | <strong>Company:</strong> RK Websoft Technologies Pvt Ltd | May 2022 – Sept 2022</p>
+        <p><strong>The Challenge:</strong> Gain practical, real-world experience in a fast-paced software development environment and contribute to active client projects.</p>
+        <p><strong>My Contribution:</strong></p>
+        <ul>
+            <li><strong>Developed and debugged front-end components</strong> for web applications using JavaScript and Angular.</li>
+            <li><strong>Strengthened my core programming logic</strong> by tackling complex Data Structures and Algorithms (DSA) problems in C++, focusing on writing optimized and efficient code.</li>
+            <li><strong>Collaborated within an agile team</strong>, learning the complete software development lifecycle from planning and design to testing and deployment.</li>
+        </ul>
+        <p><strong>Tech Stack:</strong></p>
+        <div>
+            <span class="badge badge-custom">JavaScript</span><span class="badge badge-custom">Angular</span><span class="badge badge-custom">C++</span><span class="badge badge-custom">HTML/CSS</span><span class="badge badge-custom">Git</span>
         </div>
-      </div>
     </div>
   </section>
 
-  <section class="container mt-5">
+  <!-- SKILLS -->
+  <section id="skills" class="container mt-5 py-5">
     <h2 class="section-title">Technical Skills</h2>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4 skill-category">
+        <h5>Cloud & DevOps</h5>
         <ul>
-          <li>✅ Operating Systems: Windows 10/11, Linux (Kali, Ubuntu), Windows Server</li>
-          <li>✅ Networking: TCP/IP, LAN/WAN, Secure Configs</li>
-          <li>✅ Cloud Platforms: AWS (EC2, S3, Route 53), Azure</li>
-          <li>✅ Programming: Python, PHP, JS, HTML/CSS, C++</li>
-          <li>✅ DevOps: Docker, Kubernetes, Jenkins, GitHub</li>
+          <li>Platforms: AWS (EC2, S3, Route 53, CodeBuild), Microsoft Azure</li>
+          <li>Tools: Docker, Kubernetes, Jenkins, GitHub (Actions & Foundations), Git</li>
         </ul>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-4 skill-category">
+        <h5>Cybersecurity & Networking</h5>
         <ul>
-          <li>✅ Security Tools: Metasploit, Wireshark, Netcat</li>
-          <li>✅ Virtualization: VMware, VirtualBox</li>
-          <li>✅ DBMS: MySQL, Oracle</li>
-          <li>✅ IT Support: Jira, AD, troubleshooting</li>
-          <li>✅ Web Management: WordPress, SEO optimization</li>
+          <li>Tools: Security Onion, Metasploit, Wireshark, Netcat</li>
+          <li>Concepts: TCP/IP, LAN/WAN Security, Secure Practices</li>
+        </ul>
+      </div>
+      <div class="col-md-4 skill-category">
+        <h5>Programming & Databases</h5>
+        <ul>
+          <li>Languages: Python, PHP, JavaScript, C++, HTML/CSS</li>
+          <li>Databases: MySQL, Oracle</li>
+        </ul>
+      </div>
+      <div class="col-md-4 skill-category">
+        <h5>Systems & IT Support</h5>
+        <ul>
+          <li>OS: Windows 10/11, Linux (Kali, Ubuntu), Windows Server</li>
+          <li>Virtualization: VMware Workstation, VirtualBox</li>
+          <li>Support: Active Directory (AD), Jira, LAPS UI, WordPress</li>
         </ul>
       </div>
     </div>
   </section>
 
-  <section class="container mt-5">
-    <h2 class="section-title">Experience</h2>
-    <div class="card p-3 mb-4">
-      <h5>Software Engineer – Infopercept Consulting Pvt Ltd</h5>
-      <p><em>Dec 2022 – Mar 2023 (Full-Time)</em></p>
-      <ul>
-        <li>Enhanced GSOS platform (UI & backend) using PHP/JS</li>
-        <li>Built real-time compliance dashboards and secure banking tools</li>
-        <li>Worked on deployments using AWS & Azure cloud</li>
-        <li>Integrated DevOps tools: Docker, Kubernetes, Jenkins, GitHub</li>
-        <li>Mentored interns in DevOps and cybersecurity practices</li>
-      </ul>
-    </div>
-    <div class="card p-3">
-      <h5>Summer Intern – RK Websoft Technologies Pvt Ltd</h5>
-      <p><em>May 2022 – Sept 2022 (Part-Time)</em></p>
-      <ul>
-        <li>Built front-end interfaces using JavaScript and Angular</li>
-        <li>Focused on debugging, version control & algorithms</li>
-      </ul>
-    </div>
+  <!-- EDUCATION & CERTIFICATIONS -->
+  <section id="education" class="container mt-5 py-5">
+      <h2 class="section-title">Education & Certifications</h2>
+      <div class="row">
+          <div class="col-md-6">
+              <h5>Education</h5>
+              <div class="mb-3">
+                  <strong>Network Security Architecture</strong> (Post-Graduate Certificate)
+                  <p class="mb-0">Fanshawe College, London, ON | Expected Completion: Jan 2025</p>
+              </div>
+              <div class="mb-3">
+                  <strong>Information Security Management</strong> (Post-Graduate Certificate)
+                  <p class="mb-0">Fanshawe College, London, ON | May 2024 – Dec 2024</p>
+              </div>
+              <div>
+                  <strong>Master of Computer Application</strong>
+                  <p class="mb-0">Dharmsinh Desai University, India | Jul 2021- May 2023</p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <h5>Certifications</h5>
+              <ul>
+                  <li>Azure Fundamentals – <strong>Microsoft Certified</strong></li>
+                  <li>GitHub Foundation & GitHub Actions – <strong>GitHub Certified</strong></li>
+                  <li>AWS Cloud Quest: Cloud Practitioner – <strong>AWS</strong></li>
+                  <li>AWS Networking Basics – <strong>AWS</strong></li>
+                  <li>Introduction to Cybersecurity – <strong>Cisco</strong></li>
+                  <li>The Fundamentals of Digital Marketing – <strong>Google</strong></li>
+              </ul>
+          </div>
+      </div>
   </section>
 
-  <section class="container mt-5">
-    <h2 class="section-title">Certifications</h2>
-    <ul>
-      <li>🎓 GitHub Foundation & GitHub Actions – GitHub Certified</li>
-      <li>🎓 AWS Cloud Quest: Cloud Practitioner – AWS Educator</li>
-      <li>🎓 Azure Fundamentals – Microsoft Certified</li>
-      <li>🎓 Introduction to Cybersecurity – Cisco</li>
-      <li>🎓 Fundamentals of Digital Marketing – Google</li>
-    </ul>
-  </section>
-
-  <section class="container mt-5 mb-5">
-    <h2 class="section-title">Contact Me</h2>
+  <!-- CONTACT -->
+  <section id="contact" class="container mt-5 py-5 text-center">
+    <h2 class="section-title">Get In Touch</h2>
     <p><strong>Email:</strong> <a href="mailto:tanmaymali231@gmail.com">tanmaymali231@gmail.com</a></p>
-    <p><strong>Phone:</strong> 437-734-7589</p>
     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tanmaytechsavvy/" target="_blank">linkedin.com/in/tanmaytechsavvy</a></p>
     <p><strong>GitHub:</strong> <a href="https://github.com/tanmayd274" target="_blank">github.com/tanmayd274</a></p>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer text-center py-4">
-    <small>© 2025 Tanmay Dhandhukiya | Portfolio</small>
+    <small>© 2024 Tanmay Dhandhukiya</small>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
